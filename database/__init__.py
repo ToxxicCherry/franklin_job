@@ -1,1 +1,2 @@
-from .db import Base, init_db
+from .db import init_db
+from .models import Base

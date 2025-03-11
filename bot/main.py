@@ -9,7 +9,7 @@ dp = Dispatcher()
 
 async def main():
     await init_db()
-    await dp.stop_polling(bot)
+    await dp.start_polling(bot)
 
 
 if __name__ == "__main__":
