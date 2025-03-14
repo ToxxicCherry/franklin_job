@@ -1,9 +1,9 @@
 import asyncio
-from aiogram import Bot, Dispatcher
-from config import BOT_TOKEN
+from aiogram import Dispatcher
+from .create_bot import bot
 from database import init_db
 
-bot = Bot(token=BOT_TOKEN)
+
 dp = Dispatcher()
 
 
